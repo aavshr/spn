@@ -1,9 +1,9 @@
-# Subsitution-Permutation Network
+# Substitution-Permutation Network
 This is an implementation of a subsitution-permutation network of 8-bit
 block ciphers with 32-bit keys. The encryption can be done in both 
 electronic codebook mode or in cipher block chaining mode. Decryption is also implemented.
 
-## Subsitution
+## Substitution
 The substitution step uses 4-bit S-boxes applied to lower and upper 4 bits 
 of an 8-bit word. Subsitution is give by x  = 7(x+1) mod 16. 4-bit chunks
 are natural numbers of their corresponding binary encodings.
