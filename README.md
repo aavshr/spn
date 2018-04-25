@@ -9,7 +9,7 @@ of an 8-bit word. Subsitution is give by x  = 7(x+1) mod 16. 4-bit chunks
 are natural numbers of their corresponding binary encodings.
 
 ## Permutation 
-THe permutation is a cyclic 2-bit left-shift.
+The permutation is a cyclic 2-bit left-shift.
 
 ## Rounds
 There are 4 rounds of encryption.
