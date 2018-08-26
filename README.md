@@ -17,3 +17,11 @@ There are 4 rounds of encryption.
 + Round 1: Subsitution step followed by a permutation step followed by key step with the next 8 bits of the key.
 + Round 2: Subsitution step followed by a permutation step followed by key step with the next 8 bits of the key.
 + Round 3: Sbstitution step followed by a key step with the last 8 bits of the key.
+
+## Usage
+
+```shell
+spn <key> <initialization vector> <clear text> <chain flag>
+```
+
+	

@@ -9,3 +9,4 @@ test:
 
 clean:
 	rm -f spn test
+	rm -rf build
